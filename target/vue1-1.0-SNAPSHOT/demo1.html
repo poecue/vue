@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+    <script src="/vue1/js/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <input v-model="user.username">
+</div>
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+           user:{
+               username:'root',
+               password:'123'
+           }
+        }
+    });
+</script>
+</body>
+</html>
